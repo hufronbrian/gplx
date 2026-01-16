@@ -1,0 +1,32 @@
+feat: Initial release - GPLX v1.0 (Fairware License Framework)
+
+GPLX = MIT + GPL + Fairness
+
+Introducing "Fairware" - a new approach to open source licensing.
+"Sustainable fairness through open exchange and mutual good faith."
+
+- gplx.txt: Framework specification
+- xbasic.txt: XBasic fairness framework (detailed)
+- LICENSE-TEMPLATE.txt: Base terms (philosophy, good faith, enforcement)
+- FAIRNESS-TEMPLATE.txt: Contribution tiers and caps
+- README.md: Documentation with usage guide
+
+Key features:
+- Dual path: Open (GPL-style) or Closed (MIT-style)
+- 6-tier structure (T1-T6) based on revenue
+- ~10-30% of commercial license rates
+- Caps to prevent hostage situations
+- Exempt: non-profits, public education, government, startups, contributors
+- Inflation review every 3 years
+- Good faith clause for all parties
+
+Philosophy:
+- Awareness project, not extraction
+- Protecting open source ecosystem
+- Not disrupting commercial space
+- Not demonizing corporations
+- Corporations are not the enemy. Maintainer burnout is.
+
+Fork encouraged - take the idea and build something greater.
+
+Licensed under CC0 (public domain)

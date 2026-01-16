@@ -1,0 +1,249 @@
+GPLX - General Public License Extended
+Version: 1.0
+Framework Specification
+
+===
+OVERVIEW
+
+GPLX = MIT + GPL + Fairness
+
+GPLX introduces "Fairware" - a new approach to open source licensing.
+
+"Sustainable fairness through open exchange and mutual good faith."
+
+Fairware is:
+- Not freeware (free but closed)
+- Not shareware (try before buy)
+- Not pure open source (no maintainer support)
+- Not commercial (paid license upfront)
+
+Fairware = open source + fair exchange when value is created
+
+GPLX is an open source license framework that combines:
+- MIT freedom (keep code closed if you pay for it)
+- GPL openness (share-alike as default path)
+- Fairness clause (sustainable maintainer support)
+
+The X framework is a pluggable fairness module that allows maintainers
+to define sustainable compensation terms. Users choose their path:
+- Open Path: GPL-style, share modifications, lower cost
+- Closed Path: MIT-style, keep code private, higher cost
+
+Core philosophy:
+- Open source should remain open
+- Maintainers deserve sustainable income
+- Corporations benefit, so should contributors
+- Fairness goes both ways - no hostage situations
+- Synergy over hostility, understanding over lawsuits
+
+===
+THE PROBLEM GPLX SOLVES
+
+Traditional open source:
+- Free to use, modify, distribute
+- No obligation to support maintainers
+- Maintainer burnout is epidemic
+- Billion-dollar companies extract value, forgets about the maintainers
+- Critical infrastructure depends on unpaid volunteers
+
+GPLX solution:
+- Keep all GPL freedoms
+- Add fair contribution clause for commercial success
+- Protect both developers AND corporations
+- Create sustainable open source ecosystem
+
+===
+GPLX FRAMEWORK STRUCTURE
+
+Dual Path System:
+- Open Path: Based on GPL - share modifications, lower contribution
+- Closed Path: Based on MIT - keep code private, 3x contribution
+
+X Framework: Pluggable fairness module (defines thresholds, tiers, caps)
+
+Available X Frameworks:
+- XBasic - threshold + cap model (default)
+- XTier - revenue tier model
+- XUsage - per-user/per-seat model
+- XCustom - negotiated terms
+- (community can create more)
+
+===
+HOW IT WORKS
+
+1. Software is released under GPLX + chosen X framework
+2. Below threshold: use freely (both paths)
+3. Above threshold: choose your path
+   - Open Path: Share modifications, pay lower contribution
+   - Closed Path: Keep code private, pay 3x contribution
+4. Contributions go to maintainer(s)
+5. Both parties benefit: company gets maintained software,
+   maintainer gets sustainable income
+
+===
+X FRAMEWORK REQUIREMENTS
+
+Any X framework must include:
+
+1. THRESHOLD
+   - Clear trigger for when contribution starts
+   - Must exclude small users, startups, non-profits
+   - Examples: revenue, employee count, user count
+
+2. CONTRIBUTION TERMS
+   - Clear amount or calculation method
+   - Predictable (no surprise costs)
+   - Reasonable (not extractive)
+
+3. CAPS
+   - Maximum contribution limit
+   - Prevents "hostage situations"
+   - Protects corporations from unlimited liability
+
+4. GRACE PERIOD
+   - Time before threshold applies
+   - Allows startups to grow
+   - Typically 1-2 years
+
+5. NEGOTIATION CLAUSE
+   - Option for custom terms if standard doesn't fit
+   - Good faith requirement
+   - Mutual benefit goal
+
+6. EXEMPTIONS
+   - Non-profits
+   - Educational institutions
+   - Personal/hobby use
+   - Contributions back to project (code, docs, etc.)
+
+===
+ENFORCEMENT PHILOSOPHY
+
+GPLX is NOT about:
+- Lawsuits
+- Hostage situations
+- Extracting maximum money
+- Punishing companies
+
+GPLX IS about:
+- Fair recognition of value
+- Sustainable maintenance
+- Mutual benefit
+- Good faith relationships
+- Open communication
+
+Enforcement approach:
+1. Friendly reminder first
+2. Public registry of contributors (social proof)
+3. Negotiation for edge cases
+4. Legal action only as absolute last resort
+
+===
+X FRAMEWORK REGISTRY
+
+Maintainers register their X framework choice:
+
+Format: GPLX-{XFramework}
+
+Examples:
+- GPLX-XBasic
+- GPLX-XTier
+- GPLX-XUsage
+- GPLX-XCustom
+- GPLX-XHufron-Basic
+
+Registry (future):
+- Central database of X frameworks
+- Version tracking
+- Community submissions
+- Compatibility checking
+
+===
+COMPATIBILITY
+
+GPLX is designed to be:
+- GPL-compatible at core
+- Additive (adds terms, doesn't restrict)
+- Clear (no legal ambiguity)
+- International (works across jurisdictions)
+
+Software under GPLX can be:
+- Used by GPL software
+- Forked (fork inherits GPLX terms)
+- Combined with other GPLX software
+- Included in larger projects (GPLX applies to GPLX parts)
+
+===
+FOR MAINTAINERS
+
+To use GPLX:
+
+1. Choose your X framework (XBasic recommended for most)
+2. Add to your project:
+   - LICENSE file with GPLX + X framework text
+   - README mention: "Licensed under GPLX-XBasic"
+3. Register project (optional, for discoverability)
+4. Respond to contribution inquiries in good faith
+
+===
+FOR COMPANIES
+
+To comply with GPLX:
+
+1. Check X framework threshold
+2. If below threshold: use freely
+3. If above threshold:
+   - Contact maintainer
+   - Agree on contribution terms (usually standard X framework)
+   - Set up payment (monthly/annual)
+   - Get listed as contributor (good PR!)
+
+Benefits:
+- Maintained, quality software
+- Direct line to maintainer for issues
+- Good corporate citizenship
+- Predictable, capped costs
+
+===
+VERSIONING
+
+GPLX Framework: Semantic versioning (1.0, 1.1, 2.0)
+X Frameworks: Independent versioning (XBasic-1.0, XBasic-1.1)
+
+Projects specify:
+- GPLX version
+- X framework + version
+
+Example: GPLX-1.0 with XBasic-1.0
+
+===
+GOVERNANCE
+
+GPLX is maintained by the community.
+
+Decisions made by:
+- Rough consensus
+- Public discussion
+- Maintainer input
+- Corporate input (they're stakeholders too)
+
+Changes require:
+- RFC process
+- Comment period
+- Version bump
+
+===
+CREDITS
+
+GPLX created by hufronbrian
+Inspired by the open source sustainability crisis
+Built on the foundation of GPL by Free Software Foundation
+
+===
+LICENSE OF THIS DOCUMENT
+
+This GPLX specification is released under CC0 (public domain).
+Anyone can use, modify, and build upon it.
+
+===
+END OF SPECIFICATION

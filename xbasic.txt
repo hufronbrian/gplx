@@ -1,0 +1,364 @@
+XBasic - GPLX Fairness Framework
+Version: 1.0
+Default X Framework for GPLX
+
+===
+OVERVIEW
+
+XBasic is the default fairness framework for GPLX.
+Designed for simplicity, fairness, and sustainability.
+
+GPLX introduces "Fairware" - a new approach to open source licensing.
+
+"Sustainable fairness through open exchange and mutual good faith."
+
+Fairware is:
+- Not freeware (free but closed)
+- Not shareware (try before buy)
+- Not pure open source (no maintainer support)
+- Not commercial (paid license upfront)
+
+Fairware = open source + fair exchange when value is created
+
+GPLX is essentially: MIT + GPL + Fairness
+- MIT freedom (available via Closed Path)
+- GPL openness (default, share-alike)
+- Fairness (thresholds, caps, sustainability)
+
+Key features:
+- Two paths: Open (GPL-style) or Closed (MIT-style)
+- Revenue-based threshold
+- Tiered contribution
+- Hard caps (no hostage situations)
+- Startup grace period
+- Exemptions for non-profits and education
+
+===
+THRESHOLD
+
+Contribution triggers when ALL of these are true:
+
+1. Entity is a commercial organization (for-profit)
+2. Entity uses the software in production/commercial capacity
+3. Entity annual revenue exceeds $500,000 USD
+
+Below threshold = completely free, no strings attached.
+
+Why $500k? Low enough to create ecosystem awareness early, high enough
+to protect small businesses and solo entrepreneurs.
+
+===
+TWO PATHS: OPEN vs CLOSED
+
+GPLX-XBasic offers two paths:
+
+OPEN PATH (default):
+- GPL-style: share-alike, open source modifications
+- Lower contribution tier
+- Must open source any distributed modifications
+
+CLOSED PATH:
+- MIT-style: keep modifications private/proprietary
+- Higher contribution tier (3x Open Path)
+- No share-alike requirement
+- Can use in closed-source products
+
+Choose your path based on your needs.
+Both paths support maintainer sustainability.
+
+===
+CONTRIBUTION TIERS
+
+Based on annual revenue (6 tiers):
+
+| Tier | Revenue (USD)  | Open Path (GPL) | Closed Path (MIT) |
+|------|----------------|-----------------|-------------------|
+| T1   | < $500k        | $0 (free)       | $0 (free)         |
+| T2   | $500k - $1M    | $50/month       | $150/month        |
+| T3   | $1M - $5M      | $150/month      | $450/month        |
+| T4   | $5M - $10M     | $400/month      | $1,200/month      |
+| T5   | $10M - $50M    | $1,000/month    | $3,000/month      |
+| T6   | $50M+          | $4,000/month    | $12,000/month     |
+
+Closed Path = 3x Open Path (pays for freedom to close)
+
+All amounts per project using GPLX-XBasic.
+
+Reference: These tiers are approximately 10-30% of typical commercial
+license costs. Designed for ecosystem awareness, not extraction.
+
+===
+CAPS
+
+Hard caps protect companies from unlimited liability:
+
+Open Path:
+- Per-project cap: $4,000/month
+- Multi-project cap: $20,000/month to same maintainer
+- Annual cap: $240,000/year to same maintainer
+
+Closed Path:
+- Per-project cap: $12,000/month
+- Multi-project cap: $60,000/month to same maintainer
+- Annual cap: $720,000/year to same maintainer
+
+No exceptions. Caps are absolute.
+
+===
+GRACE PERIOD
+
+New companies/startups:
+- First 2 years: exempt from contribution
+- Starts from company founding date
+- Applies even if revenue exceeds threshold
+
+Purpose: Let startups grow before contributing.
+
+===
+EXEMPTIONS
+
+Fully exempt (always free):
+
+1. Non-profit organizations (registered 501c3 or equivalent)
+
+2. Educational institutions (public good):
+   - Public schools (K-12, universities)
+   - Non-profit private schools
+   - Research institutions
+   NOT exempt: for-profit education (bootcamps, online course platforms)
+
+3. Government agencies (public good):
+   - Federal, state, local government
+   - Public services
+   NOT exempt: for-profit government contractors
+
+4. Personal/hobby use
+
+5. Open source projects (that are themselves open source)
+
+6. Companies that contribute back:
+   - Code contributions (merged PRs)
+   - Documentation
+   - Bug reports with fixes
+   - Significant community support
+
+===
+CONTRIBUTION IN KIND
+
+Alternative to monetary contribution:
+
+Companies may negotiate contribution-in-kind:
+- Developer time (X hours/month on project)
+- Infrastructure (hosting, CI/CD, etc.)
+- Marketing/exposure
+- Other valuable support
+
+Value must be roughly equivalent to monetary tier.
+Requires maintainer agreement.
+
+===
+CALCULATION
+
+How to determine your tier:
+
+1. Take company's annual revenue (last fiscal year)
+2. Find matching tier
+3. Multiply by number of GPLX-XBasic projects used
+4. Apply multi-project cap if exceeded
+5. Result = monthly contribution
+
+Example:
+- Company revenue: $15M
+- Uses 3 GPLX-XBasic projects
+- Tier: $150/month × 3 = $450/month
+- Under cap, so: $450/month total
+
+===
+PAYMENT
+
+Payment methods (maintainer's choice):
+- GitHub Sponsors
+- Open Collective
+- Patreon
+- Direct invoice
+- Other (by agreement)
+
+Payment frequency:
+- Monthly (default)
+- Quarterly (by agreement)
+- Annual (by agreement, may include discount)
+
+===
+VERIFICATION
+
+Revenue verification:
+- Self-reported (honor system default)
+- Maintainer may request verification for disputes
+- Public companies: use public filings
+- Private companies: signed attestation from officer
+
+Disputes:
+- Good faith discussion first
+- Third-party mediation if needed
+- Arbitration as last resort
+
+===
+INFLATION ADJUSTMENT
+
+Tiers are reviewed every 3 years to maintain fairness.
+
+Review process:
+- Community discussion
+- Adjust thresholds based on economic changes
+- Round to nearest $25 for simplicity
+- Announce 6 months before changes take effect
+
+Goal: Keep thresholds meaningful over time without constant changes.
+
+First review: 2029 (3 years from v1.0 release)
+
+===
+CHANGES TO STATUS
+
+If company status changes:
+
+Revenue increases:
+- Move to new tier at next payment cycle
+- No back-payment required
+
+Revenue decreases:
+- Move to lower tier at next payment cycle
+- Provide notice to maintainer
+
+Company acquired:
+- New parent company's revenue applies
+- Grace period does not reset
+
+===
+TERMINATION
+
+Either party may terminate:
+
+Company:
+- Stop using the software
+- Notify maintainer
+- Complete current payment cycle
+
+Maintainer:
+- Cannot terminate contribution right
+- Can transfer to successor maintainer
+- Can release to pure GPL (removes X framework)
+
+===
+GOOD FAITH CLAUSE
+
+GPLX is built on mutual good faith - not just from companies, but from
+all participants in the ecosystem. Corporations are not inherently bad,
+and maintainers are not inherently victims. We are partners in building
+software that benefits humanity.
+
+All parties agree to:
+- Honest communication
+- Reasonable interpretation of terms
+- No gaming the system
+- No hostage situations (from either side)
+- Mutual respect and understanding
+- Assume good intent first
+
+For companies:
+- Honor the spirit, not just the letter
+- Recognize the value maintainers create
+- Contribute fairly when you can
+
+For maintainers:
+- Be reasonable in enforcement
+- Understand business constraints
+- Communicate openly about project needs
+
+For the public:
+- Recognize that companies also contribute to the ecosystem
+- Avoid blanket demonization of business
+- Appreciate that sustainable open source needs all parties
+
+If terms create genuine hardship:
+- Discuss openly
+- Negotiate alternative arrangement
+- Document agreement
+- Remember: we're building something together
+
+===
+DISPLAY
+
+Projects using XBasic should display:
+
+In LICENSE file:
+```
+Licensed under GPLX-1.0 with XBasic-1.0
+See: https://github.com/hufronbrian/gplx
+```
+
+In README:
+```
+## License
+GPLX-XBasic - Free for everyone, with fair contribution
+for commercial success. See LICENSE for details.
+```
+
+===
+FAQ
+
+Q: I'm a solo developer making $50k/year, do I pay?
+A: No. Threshold is $500k company revenue.
+
+Q: I work at a big company but use it for personal projects?
+A: Personal use is exempt. Company use triggers threshold check.
+
+Q: What if my company uses it internally only, not in products?
+A: Still counts as commercial use if you're above threshold.
+
+Q: Can I fork and remove the X framework?
+A: No. GPLX terms follow the code. Fork inherits GPLX.
+
+Q: What if maintainer disappears?
+A: After 1 year of no contact, contributions pause.
+   If maintainer returns, contributions resume (no back-pay).
+
+Q: Is this legally enforceable?
+A: Yes, as a license term. But enforcement philosophy is
+   communication first, legal action as absolute last resort.
+
+Q: What's the difference between Open and Closed path?
+A: Open Path = GPL-style, must share modifications (cheaper)
+   Closed Path = MIT-style, keep code private (3x cost)
+
+Q: Can I switch from Open to Closed path?
+A: Yes. Pay the Closed Path rate going forward.
+   No back-payment required for past Open Path usage.
+
+Q: We're below threshold, can we still use Closed Path?
+A: Yes. Below $1M = free for both paths. No restrictions.
+
+Q: We use it Open Path now, but want to close one product?
+A: Pay Closed Path rate only for the closed product.
+   Open products stay on Open Path rate.
+
+===
+SUMMARY
+
+XBasic in one sentence:
+"A healthy software ecosystem through awareness, fairness, and mutual
+good faith - where maintainers and companies thrive together."
+
+XBasic philosophy:
+- Ecosystem health over extraction
+- Awareness over ignorance
+- Good faith from all parties (maintainers AND companies)
+- Balance that benefits humanity
+
+XBasic = MIT + GPL + Fairness:
+- Below threshold: completely free, use however you want
+- Above threshold, Open Path: contribute, share modifications
+- Above threshold, Closed Path: contribute more, keep code private
+
+===
+END OF XBASIC FRAMEWORK
